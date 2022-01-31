@@ -16,7 +16,7 @@ requirements = [open("requirements.txt").read()]
 
 setup_requirements = []
 
-test_requirements = []
+test_requirements = ["pytest==7.0.0rc1", "py==1.11.0"]
 
 setup(
     author="Vinit Kumar",
